@@ -1,11 +1,8 @@
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
-        ht = {}
-        for num in nums:
-            if ht.get(num,0)==1:
+        from collections import Counter
+        ctr = Counter(nums)
+        for k,v in ctr.items():
+            if v > 1:
                 return True
-            ht[num]=ht.get(num,0)+1
         return False
-
-
-         

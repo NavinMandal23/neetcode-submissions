@@ -1,4 +1,4 @@
-# NeetCode Solutions — @NavinMandal-UBER
+# NeetCode Solutions — @NavinMandal23
 
 > Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
 
